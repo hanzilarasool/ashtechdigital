@@ -1,0 +1,249 @@
+.single-service-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.single-service-banner-section{
+    background-color: #0ebab1;
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+.single-service-banner-section .banner-text{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    align-items:center;
+    /* max-width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: rebeccapurple; */
+}
+
+.banner-text .para{
+    color: var(--white);
+    text-align: left;
+    letter-spacing: -.05em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    /* color: #fff; */
+    font-size: 18px;
+}
+.banner-text .head{
+    color: var(--white);
+    letter-spacing: -.05em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.single-service-details {
+    padding: 1rem 5rem;
+}
+.single-service-details .head {
+    color: var(--secondary-dark);
+    text-align: left;
+    letter-spacing: -.05em;
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.single-service-details .para{
+    color: var(--paragraph-gray);
+    text-align: left;
+    letter-spacing: -.05em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+/* image + service includes */
+.services-includes-image {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.services-includes-side-image-container {
+  width: 50%;
+  height: 360px; /* Set the desired height */
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem; 
+  /* overflow: hidden;  */
+
+}
+
+.image-wrapper img {
+  object-fit: contain; /* Contain within the container */
+  width: 100%;
+  height: 100%;
+  min-height: auto;
+  border-radius: 45px; 
+}
+
+  
+  /* services list */
+  .aside{
+    width: 50%;
+  }
+  .services-list {
+   
+   
+    flex-direction: column;
+    width: 80%;
+padding-right: 1.5rem;
+    list-style-type: none;
+    margin-top: 1.8rem;
+ 
+  }
+  .services-list li{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px inset;
+    display: flex;
+  
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  /* benefits section */
+  .service-benifits {
+padding: 0  5rem;
+margin-top: 1rem;
+padding-bottom: 4rem;
+
+  }
+  /* adding custom bullets for the list style type */
+
+  .service-benifits ul{
+    list-style-type: none;
+
+  }
+
+  
+  .service-benifits h2, .aside h2{
+    margin: .8rem 0;
+    color: var(--secondary-dark);
+    text-align: left;
+    letter-spacing: -.05em;
+    text-transform: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Inter, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.1em;
+  }
+  .service-benifits .head{
+color: var(--secondary-dark);
+letter-spacing: -.05em;
+
+font-family: Inter, sans-serif;
+/* font-size: 16px; */
+font-weight: bold;
+color:  rgba(87, 87, 87,.8);;
+/* color:#7987a1; */
+  }
+  .service-benifits .para{
+    font-family: Inter, sans-serif;
+    color: var(--paragraph-gray);
+  }
+  .each-benefit{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  .each-benefit::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem; /* Adjust to vertically center the bullet */
+    width: 0.5rem; /* Bullet size */
+    height: 0.5rem; 
+    background-color: var(--primary); 
+    border-radius: 50%; 
+  }
+
+
+
+
+/* responsive size for mobile screens */
+@media(max-width:600px){
+
+  .single-service-page-wrapper{
+  
+    gap: 1rem;
+}
+  .single-service-details {
+    padding: 1rem 1.5rem;
+}
+.single-service-details .head {
+  font-size: 1.8rem;
+  font-weight: 700;
+
+}
+.services-includes-image {
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+.services-includes-side-image-container {
+  width: 100%;
+  height: 360px;
+
+}
+.aside {
+  width: 100%;
+}
+.service-benifits {
+  padding: 0 1.5rem;
+  padding-bottom: 3rem;
+  /* margin-top: 1rem; */
+}
+.banner-text .head {
+
+  font-size: 3.5rem;
+
+}
+.services-list {
+
+  width: 99%;
+
+}
+.service-benifits h2, .aside h2 {
+ 
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+}

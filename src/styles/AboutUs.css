@@ -1,0 +1,178 @@
+.about-us-wrapper {
+    padding: 4rem 5rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+  }
+  
+  .our-vision-container {
+    display: flex;
+    gap: 3rem;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .our-vision-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+    /* background-color: rgb(46, 40, 40); */
+    width: 30%;
+ 
+  }
+  
+
+  
+  .round-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .our-vision-text-container {
+    width: 70%;
+  }
+  .our-vision-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  .sub-head-text{
+    color: var(--primary);
+    font-weight: 450;
+    font-size: 1.1rem;
+  }
+  .our-vision-head{
+    font-size: 2.5rem;
+    color: var(--secondary-dark);
+  }
+
+  .vision-para{
+    color: var(--paragraph-gray);
+    text-align: justify;
+  }
+
+
+
+  /* ///cards */
+  .about-us__team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    justify-content: center; 
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .about-us__team-item {
+    width: 300px; /* Adjust the width of each team member card */
+    /* background-color: #f0f0f0;  */
+    border-radius: 8px; /* Rounded corners for cards */
+    padding: 1rem; /* Padding inside each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    /* background-color: var(--secondary-dark); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-us-team-item-img-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  .about-us__team-image {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* Make the image round */
+    filter: grayscale(100%);
+    width: 269px;
+  }
+  
+  .about-us__team-name {
+    margin-top: 0.5rem; /* Adjust spacing */
+    font-size: 1.2rem; /* Example font size */
+  }
+  
+  .about-us__team-role {
+    margin: 0.5rem 0; /* Adjust spacing */
+    color: #666; /* Example text color */
+  }
+  
+  .about-us__team-item a {
+    display: block; /* Ensure the LinkedIn icon is clickable */
+    margin-top: 1rem; 
+    color: #0077b5; 
+  }
+
+  .about-us__team-item a:hover {
+    color: #004471; /* Hover color */
+  }
+  
+.leadership-team-section-text{
+
+  width: 85%;
+  p{
+    text-align: justify;
+  }
+}
+
+@media (max-width:1200px) {
+  .our-vision-image-container {
+   
+    width: 50%;
+ 
+  }
+  .our-vision-text-container {
+    width: 50%;
+}
+
+}
+  @media (max-width:600px) {
+    .our-vision-container {
+       flex-direction: column;
+        gap: 3rem;
+       
+    }
+    .our-vision-image-container {
+   
+      width: 85%;
+   
+    }
+    .our-vision-text-container {
+        width: 100%;
+    }
+    .about-us-wrapper {
+        padding: 1rem 1rem;
+       
+    }
+   
+  }
+  @media (max-width:760px) {
+    .our-vision-container {
+       flex-direction: column;
+        gap: 3rem;
+       
+    }
+    .our-vision-text-container {
+        width: 100%;
+    }
+    .about-us-wrapper {
+        padding: 1rem 1rem;
+       
+    }
+
+    .our-vision-head {
+      font-size: 1.6rem;
+
+  }
+  }
