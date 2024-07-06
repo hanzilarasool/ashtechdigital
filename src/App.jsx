@@ -10,7 +10,8 @@ const Home = lazy(() => import('./pages/Home'));
 const Services = lazy(() => import('./pages/Services'));
 const ServicesSinglePage = lazy(() => import('./pages/ServicesSinglePage'));
 const Contact = lazy(() => import('./pages/Contact'));
-import AboutUs from './pages/AboutUs';
+const AboutUs=lazy(() => import('./pages/AboutUs'));
+// import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
