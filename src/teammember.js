@@ -1,5 +1,6 @@
-import sobanimg from "./assets/about/soban.jpeg";
+import sobanimg from "./assets/about/soban.png";
 import subhanimg from "./assets/about/subhan.jpg";
+import abdulbasit from "./assets/about/abdulbasit.jpg";
 import vision2 from "./assets/about/vision2.png";
 const teamMembers = [
   {
@@ -11,9 +12,9 @@ const teamMembers = [
   },
   {
     id: 2,
-    image: sobanimg,
+    image: abdulbasit,
     name: "Abdul Basit",
-    role: "//",
+    role: "Project Manager",
     linkedin: "https://www.linkedin.com/in/soban-f-578817287/",
   },
   {

@@ -35,9 +35,9 @@ const Footer = () => {
 {/* end .here */}
                     <div className="footer-social">
                         <ul className='social-links-list'>
-                            <li className='social-link'><Link to="/" > <img src="./Footer/linkedin.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="/" > <img src="./Footer/git.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="/" > <img src="./Footer/fb.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://www.linkedin.com/in/mohammadhanzilarasool/" > <img src="./Footer/linkedin.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://github.com/hanzilarasool" > <img src="./Footer/git.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://web.facebook.com/muhammadhanzilarasool/" > <img src="./Footer/fb.svg" alt="" /></Link></li>
                             <li className='social-link'><Link to="/" > <img src="./Footer/x.svg" alt="" /></Link></li>
                         </ul>
                     </div>
