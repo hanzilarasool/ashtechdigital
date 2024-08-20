@@ -30,7 +30,7 @@ const AboutUs = () => {
         {teamMembers.map((member) => (
           <li key={member.id} className="about-us__team-item">
             <div className='about-us-team-item-img-container'>
-            <img src={member.image} alt={member.name} className="about-us__team-image" />
+            {/* <img src={member.image} alt={member.name} className="about-us__team-image" /> */}
             </div>
             <h3 className="about-us__team-name">{member.name}</h3>
          <div className='role-plus-social-links' style={{display:"flex",justifyContent:"space-between",width:"100%"}}>

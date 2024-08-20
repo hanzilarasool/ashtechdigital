@@ -5,6 +5,8 @@ import fdesign from "./assets/services/fdesign.svg";
 import assiststud from "./assets/services/assiststud.svg";
 import webdev from "./assets/services/web-development.svg";
 import digmarket from "./assets/services/marketing.svg"
+import ecomm from "./assets/services/ecomm.svg";
+import ai from "./assets/services/ai.svg";
 // imorting images now 
 import webdevimg from "./assets/services/ServicesSingle/web-dev-img.png";
 
@@ -139,6 +141,22 @@ const servicesData = [
       },
       iconImage: digmarket,
       image:marketingimg
+    }
+    // adding 6th service
+    ,
+    {
+      id: 6,
+      title: "Ecommerace",
+      description: "Our comprehensive eCommerce services empower businesses to effortlessly set up and manage their online stores.",
+      iconImage: ecomm,
+    },
+    
+    {
+      id: 6,
+      title: "AI/ML",
+      description: "Our solutions enable organizations to streamline processes, gain data-driven insights, and unlock innovative possibilities. ",
+      iconImage: ai,
+     
     }
   ];
   

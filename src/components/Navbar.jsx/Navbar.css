@@ -61,7 +61,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   /* color: #333; */
-  color: #f7a90a;
+  color: var(--primary);
 }
 
 .nav-logo-txt span {
@@ -90,7 +90,8 @@
 }
 
 .nav-links {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--primary);
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;

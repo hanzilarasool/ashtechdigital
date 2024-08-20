@@ -58,7 +58,7 @@
   
   .form-button {
     padding: 12px 20px;
-    background-color: #0ebab1; /* Primary color */
+    background-color: var(--secondary-dark); /* Primary color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -68,7 +68,7 @@
   }
   
   .form-button:hover {
-    background-color: #0f5377; /* Secondary dark color */
+    background-color: var(--primary); /* Secondary dark color */
   }
 .contact-title{
     color: var(--secondary-dark);

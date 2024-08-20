@@ -46,7 +46,7 @@ const Footer = () => {
                
             </div>
             <div className="footer-bottom">
-                    <p>&copy; 2024 ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/in/mohammadhanzilarasool/" className='developer-link' > @hanzilarasool </Link> & Team</p>
+                    <p>&copy; 2024 ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/in/mohammadhanzilarasool/" className='developer-link' style={{textDecoration:"underline"}}> ASH Tech </Link> </p>
                 </div>
         </footer>
     );
