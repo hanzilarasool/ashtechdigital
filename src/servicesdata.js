@@ -6,6 +6,8 @@ import assiststud from "./assets/services/assiststud.svg";
 import webdev from "./assets/services/web-development.svg";
 import digmarket from "./assets/services/marketing.svg"
 import ecomm from "./assets/services/ecomm.svg";
+import ML from "./assets/services/robot.png";
+import consultancy from "./assets/services/consultancy.png";
 import ai from "./assets/services/ai.svg";
 // imorting images now 
 import webdevimg from "./assets/services/ServicesSingle/web-dev-img.png";
@@ -70,8 +72,8 @@ const servicesData = [
     },
     {
       id: 3,
-      title: "Graphic Design",
-      description: "Enhance your brand with professional graphic design services.",
+      title: "Graphic Design/ Video Editing",
+      description: "Enhance your brand with professional graphic design and video editing services.",
       details: `We provide graphic design services that help your brand stand out. 
                 From logos to marketing materials, we ensure that your brand's visual identity is strong and consistent. 
                 Our creative solutions are tailored to meet your branding and marketing needs.`,
@@ -79,7 +81,7 @@ const servicesData = [
         "Logo Design",
         "Marketing Materials",
         "Business Cards",
-        "Brochures and Flyers",
+        "Video edits",
         "Social Media Graphics"
       ],
       benefits: {
@@ -146,18 +148,82 @@ const servicesData = [
     ,
     {
       id: 6,
-      title: "Ecommerace",
+      title: "eCommerce",
       description: "Our comprehensive eCommerce services empower businesses to effortlessly set up and manage their online stores.",
-      iconImage: ecomm,
-    },
-    
-    {
-      id: 6,
-      title: "AI/ML",
-      description: "Our solutions enable organizations to streamline processes, gain data-driven insights, and unlock innovative possibilities. ",
-      iconImage: ai,
-     
+      details: `We offer end-to-end eCommerce solutions, from designing user-friendly online stores to implementing secure payment systems and managing inventory. 
+                Our services are tailored to help businesses build a successful online presence and drive sales growth.`,
+      services: [
+        "Online Store Setup",
+        "Payment Gateway Integration",
+        "Inventory Management",
+        "Order Fulfillment Solutions",
+        "eCommerce Website Optimization"
+      ],
+      benefits: {
+        enhancedUserExperience: "We create eCommerce platforms that offer seamless and enjoyable shopping experiences for your customers.",
+        secureTransactions: "Our services include secure payment integration, ensuring safe and reliable transactions for your customers.",
+        scalableSolutions: "Our eCommerce solutions are built to grow with your business, allowing for easy scaling as your business expands.",
+        increasedSales: "With optimized websites and efficient order management, our solutions help drive higher sales and conversion rates.",
+        Operations: "Enable your business to operate 24/7 with a fully functional online store that meets your customers' needs at any time."
+      },
+      iconImage: ecomm, // Replace with actual image reference
+      image: marketingimg // Replace with actual image reference
     }
+    
+    
+    // {
+    //   id: 7,
+    //   title: "AI/ML",
+    //   description: "Our solutions enable organizations to streamline processes, gain data-driven insights, and unlock innovative possibilities. ",
+    //   iconImage: ai,
+     
+    // },
+    ,
+    {
+      id: 8,
+      title: "Consultancy Services",
+      description: "We provide a range of consultancy services to help businesses optimize their operations and achieve their goals.",
+      details: `Our consultancy services offer professional advice and guidance in various domains to assist your business in reaching new heights. 
+                Whether you're looking for IT solutions, communication strategies, or career counseling, we have experts ready to help you make informed decisions and implement effective strategies.`,
+      services: [
+        "IT Consultancy Services",
+        "Communication and Collaboration Consultancy",
+        "Career Consultancy",
+        "Professional Services"
+      ],
+      benefits: {
+        expertAdvice: "Our team of experts offers insights and recommendations based on industry best practices and the latest technologies.",
+        customizedSolutions: "We tailor our consultancy solutions to meet the specific needs and challenges of your business.",
+        operationalEfficiency: "Our guidance helps improve your business processes, leading to enhanced productivity and efficiency.",
+        costSavings: "We help businesses streamline operations and reduce costs through effective consultancy.",
+        strategicGrowth: "Leverage our consultancy services to develop strategies that promote long-term growth and success."
+      },
+      iconImage: assiststud, // Replace with actual image reference
+      image: consultancy // Replace with actual image reference
+    },
+    {
+      id: 9,
+      title: "AI/ML Models",
+      description: "We offer advanced AI model development services to help businesses harness the power of artificial intelligence for various applications.",
+      details: `Our AI services are designed to deliver intelligent solutions that enhance decision-making, automate processes, and improve business outcomes. 
+                From chatbots to predictive analytics, we offer a wide range of AI model development services tailored to meet the unique needs of your business.`,
+      services: [
+        "Chatbots",
+        "Prediction Models",
+        "Sentiment Analysis",
+        "Classification Models"
+      ],
+      benefits: {
+        automation: "Leverage AI models to automate routine tasks and improve operational efficiency.",
+        enhancedDecisionMaking: "Our prediction models provide valuable insights, enabling data-driven decision-making.",
+        customerEngagement: "Implement AI-powered chatbots to enhance customer service and engagement.",
+        realTimeAnalysis: "Sentiment analysis models allow you to analyze customer feedback and market trends in real-time.",
+        competitiveAdvantage: "Stay ahead of the competition with cutting-edge AI technologies tailored to your business needs."
+      },
+      iconImage: ai, // Replace with actual image reference
+      image: ML // Replace with actual image reference
+    }
+    
   ];
   
   export default servicesData;

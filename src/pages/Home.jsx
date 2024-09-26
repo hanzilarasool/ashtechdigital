@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"
 import Services from "./Services"
 function Home() {
   const items = [
-    { id: 1, value: '236+', text: 'Active Clients' },
-    { id: 2, value: '3,000+', text: 'Projects Delivered' },
+    { id: 1, value: '20+', text: 'Active Clients' },
+    { id: 2, value: '100+', text: 'Projects Delivered' },
     { id: 3, value: '23+', text: 'Countries Supported' },
-    { id: 4, value: '150+', text: 'Team Members' },
-    { id: 5, value: '500+', text: 'Happy Clients' },
-    { id: 6, value: '10+', text: 'Years of Experience' },
+    { id: 4, value: '10+', text: 'Team Members' },
+    { id: 5, value: '100+', text: 'Happy Clients' },
+    { id: 6, value: '1.5+', text: 'Years of Experience' },
   ];
 
 
@@ -22,7 +22,7 @@ function Home() {
 </div>
 <div className="homepage-banner-button-wrap">
   <Link to="/contact" className="button-primary">Get Started</Link>
-<Link to="/projects" className="button-secondary">See our Work</Link>
+<Link to="https://github.com/hanzilarasool/" target="_blank" className="button-secondary">See our Work</Link>
 </div>
 </div>
     </section>

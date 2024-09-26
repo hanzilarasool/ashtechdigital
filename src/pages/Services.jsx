@@ -15,7 +15,8 @@ function Services() {
      <section className="servies-sections-grid">
 {
     data.map((service,index)=>(
-       <Link to={service.id <= 5 ? `/services/${service.id}` : '#'} key={index}>
+       <Link to={`/services/${service.id}`}  key={index}>
+        {/* to={service.id <= 5 ? `/services/${service.id}` : '#'} */}
         <div className="service-card" key={index}>
 <div className="service-card-icon">
 <img src={service.iconImage} alt="icon" />

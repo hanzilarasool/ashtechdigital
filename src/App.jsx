@@ -5,11 +5,13 @@ import "./index.css";
 import Navbar from './components/Navbar.jsx/Navbar';
 import Footer from './components/Footer/Footer';
 import { RingLoader } from 'react-spinners';
-
-const Home = lazy(() => import('./pages/Home'));
+import Contact from "./pages/Contact"
+// const Home = lazy(() => import('./pages/Home'));
+import Home from './pages/Home';
 const Services = lazy(() => import('./pages/Services'));
-const ServicesSinglePage = lazy(() => import('./pages/ServicesSinglePage'));
-const Contact = lazy(() => import('./pages/Contact'));
+import ServicesSinglePage from "./pages/ServicesSinglePage"
+// const ServicesSinglePage = lazy(() => import('./pages/ServicesSinglePage'));
+// const Contact = lazy(() => import('./pages/Contact'));
 const AboutUs=lazy(() => import('./pages/AboutUs'));
 // import AboutUs from './pages/AboutUs';
 

@@ -7,7 +7,7 @@ const teamMembers = [
     id: 1,
     image: sobanimg,
     name: "Soban Farooq",
-    role: "CEO",
+    role: "Ai/ML expert",
     linkedin: "https://www.linkedin.com/in/soban-f-578817287/",
   },
   {
