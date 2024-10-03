@@ -15,7 +15,7 @@ const teamMembers = [
     image: abdulbasit,
     name: "Abdul Basit",
     role: "Project Manager",
-    linkedin: "https://www.linkedin.com/in/soban-f-578817287/",
+    linkedin: "https://www.linkedin.com/in/abdul-basit-63528b2b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     id: 3,

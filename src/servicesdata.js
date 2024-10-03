@@ -72,17 +72,17 @@ const servicesData = [
     },
     {
       id: 3,
-      title: "Graphic Design/ Video Editing",
+      title: "Media Management",
       description: "Enhance your brand with professional graphic design and video editing services.",
       details: `We provide graphic design services that help your brand stand out. 
                 From logos to marketing materials, we ensure that your brand's visual identity is strong and consistent. 
                 Our creative solutions are tailored to meet your branding and marketing needs.`,
       services: [
-        "Logo Design",
+        "Graphic Design",
+        "Video editing",
+        "Social Media Graphics",
         "Marketing Materials",
-        "Business Cards",
-        "Video edits",
-        "Social Media Graphics"
+        "Business Cards"
       ],
       benefits: {
         strongBrandIdentity: "Effective graphic design establishes a strong brand identity that resonates with your audience.",
@@ -170,14 +170,6 @@ const servicesData = [
       image: marketingimg // Replace with actual image reference
     }
     
-    
-    // {
-    //   id: 7,
-    //   title: "AI/ML",
-    //   description: "Our solutions enable organizations to streamline processes, gain data-driven insights, and unlock innovative possibilities. ",
-    //   iconImage: ai,
-     
-    // },
     ,
     {
       id: 8,
