@@ -97,13 +97,13 @@ const servicesData = [
     },
     {
       id: 4,
-      title: "Student Assistance",
-      description: "Assist students with their tasks and projects.",
+      title: "Coursework Assistence",
+      description: "Assist students with their tasks and projects completion.",
       details: `We offer assistance to students in various tasks and projects, ensuring that they get the help they need to succeed in their academic endeavors. 
                 Our services are designed to support students in managing their workload effectively and achieving their educational goals.`,
       services: [
-        "Homework Help",
-        "Project Assistance",
+        "Final year project",
+        "Assignment Tasks",
         "Tutoring",
         "Study Materials",
         "Exam Preparation"
