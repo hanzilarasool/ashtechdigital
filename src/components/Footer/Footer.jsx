@@ -35,9 +35,9 @@ const Footer = () => {
 {/* end .here */}
                     <div className="footer-social">
                         <ul className='social-links-list'>
-                            <li className='social-link'><Link to="https://www.linkedin.com/in/mohammadhanzilarasool/" > <img src="./Footer/linkedin.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="https://github.com/hanzilarasool" > <img src="./Footer/git.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="https://web.facebook.com/muhammadhanzilarasool/" > <img src="./Footer/fb.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://www.linkedin.com/company/ashtech-digital-solutions/" > <img src="./Footer/linkedin.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://github.com/ashtechdigitalsolutions" > <img src="./Footer/git.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://web.facebook.com/ashtechdigitalsolutions/" > <img src="./Footer/fb.svg" alt="" /></Link></li>
                             <li className='social-link'><Link to="/" > <img src="./Footer/x.svg" alt="" /></Link></li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                
             </div>
             <div className="footer-bottom">
-                    <p>&copy; 2024 ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/in/mohammadhanzilarasool/" className='developer-link' style={{textDecoration:"underline"}}> ASH Tech </Link> </p>
+                    <p>&copy; 2024 ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/company/ashtech-digital-solutions/" className='developer-link' style={{textDecoration:"underline"}}> ASH Tech </Link> </p>
                 </div>
         </footer>
     );

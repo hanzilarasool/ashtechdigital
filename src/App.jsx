@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ServicesSinglePage from "./pages/ServicesSinglePage"
+import Projects from './components/Projects/Projects';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs/>} />
             <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/services/:id" element={<ServicesSinglePage />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

@@ -146,53 +146,53 @@ const servicesData = [
     }
     // adding 6th service
     ,
-    {
-      id: 6,
-      title: "eCommerce",
-      description: "Our comprehensive eCommerce services empower businesses to effortlessly set up and manage their online stores.",
-      details: `We offer end-to-end eCommerce solutions, from designing user-friendly online stores to implementing secure payment systems and managing inventory. 
-                Our services are tailored to help businesses build a successful online presence and drive sales growth.`,
-      services: [
-        "Online Store Setup",
-        "Payment Gateway Integration",
-        "Inventory Management",
-        "Order Fulfillment Solutions",
-        "eCommerce Website Optimization"
-      ],
-      benefits: {
-        enhancedUserExperience: "We create eCommerce platforms that offer seamless and enjoyable shopping experiences for your customers.",
-        secureTransactions: "Our services include secure payment integration, ensuring safe and reliable transactions for your customers.",
-        scalableSolutions: "Our eCommerce solutions are built to grow with your business, allowing for easy scaling as your business expands.",
-        increasedSales: "With optimized websites and efficient order management, our solutions help drive higher sales and conversion rates.",
-        Operations: "Enable your business to operate 24/7 with a fully functional online store that meets your customers' needs at any time."
-      },
-      iconImage: ecomm, // Replace with actual image reference
-      image: marketingimg // Replace with actual image reference
-    }
+    // {
+    //   id: 6,
+    //   title: "eCommerce",
+    //   description: "Our comprehensive eCommerce services empower businesses to effortlessly set up and manage their online stores.",
+    //   details: `We offer end-to-end eCommerce solutions, from designing user-friendly online stores to implementing secure payment systems and managing inventory. 
+    //             Our services are tailored to help businesses build a successful online presence and drive sales growth.`,
+    //   services: [
+    //     "Online Store Setup",
+    //     "Payment Gateway Integration",
+    //     "Inventory Management",
+    //     "Order Fulfillment Solutions",
+    //     "eCommerce Website Optimization"
+    //   ],
+    //   benefits: {
+    //     enhancedUserExperience: "We create eCommerce platforms that offer seamless and enjoyable shopping experiences for your customers.",
+    //     secureTransactions: "Our services include secure payment integration, ensuring safe and reliable transactions for your customers.",
+    //     scalableSolutions: "Our eCommerce solutions are built to grow with your business, allowing for easy scaling as your business expands.",
+    //     increasedSales: "With optimized websites and efficient order management, our solutions help drive higher sales and conversion rates.",
+    //     Operations: "Enable your business to operate 24/7 with a fully functional online store that meets your customers' needs at any time."
+    //   },
+    //   iconImage: ecomm, // Replace with actual image reference
+    //   image: marketingimg // Replace with actual image reference
+    // }
     
-    ,
-    {
-      id: 8,
-      title: "Consultancy Services",
-      description: "We provide a range of consultancy services to help businesses optimize their operations and achieve their goals.",
-      details: `Our consultancy services offer professional advice and guidance in various domains to assist your business in reaching new heights. 
-                Whether you're looking for IT solutions, communication strategies, or career counseling, we have experts ready to help you make informed decisions and implement effective strategies.`,
-      services: [
-        "IT Consultancy Services",
-        "Communication and Collaboration Consultancy",
-        "Career Consultancy",
-        "Professional Services"
-      ],
-      benefits: {
-        expertAdvice: "Our team of experts offers insights and recommendations based on industry best practices and the latest technologies.",
-        customizedSolutions: "We tailor our consultancy solutions to meet the specific needs and challenges of your business.",
-        operationalEfficiency: "Our guidance helps improve your business processes, leading to enhanced productivity and efficiency.",
-        costSavings: "We help businesses streamline operations and reduce costs through effective consultancy.",
-        strategicGrowth: "Leverage our consultancy services to develop strategies that promote long-term growth and success."
-      },
-      iconImage: assiststud, // Replace with actual image reference
-      image: consultancy // Replace with actual image reference
-    },
+    // ,
+    // {
+    //   id: 8,
+    //   title: "Consultancy Services",
+    //   description: "We provide a range of consultancy services to help businesses optimize their operations and achieve their goals.",
+    //   details: `Our consultancy services offer professional advice and guidance in various domains to assist your business in reaching new heights. 
+    //             Whether you're looking for IT solutions, communication strategies, or career counseling, we have experts ready to help you make informed decisions and implement effective strategies.`,
+    //   services: [
+    //     "IT Consultancy Services",
+    //     "Communication and Collaboration Consultancy",
+    //     "Career Consultancy",
+    //     "Professional Services"
+    //   ],
+    //   benefits: {
+    //     expertAdvice: "Our team of experts offers insights and recommendations based on industry best practices and the latest technologies.",
+    //     customizedSolutions: "We tailor our consultancy solutions to meet the specific needs and challenges of your business.",
+    //     operationalEfficiency: "Our guidance helps improve your business processes, leading to enhanced productivity and efficiency.",
+    //     costSavings: "We help businesses streamline operations and reduce costs through effective consultancy.",
+    //     strategicGrowth: "Leverage our consultancy services to develop strategies that promote long-term growth and success."
+    //   },
+    //   iconImage: assiststud, // Replace with actual image reference
+    //   image: consultancy // Replace with actual image reference
+    // },
     {
       id: 9,
       title: "AI/ML Models",
