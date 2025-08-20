@@ -7,7 +7,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     gap: 2rem;
     width: 100%;
-    height: calc(100vh - 80px);
+    height:auto;
+    min-height: calc(100vh - 80px);
+   
   }
   /* contact container form submission active */
   .contact-container.active {

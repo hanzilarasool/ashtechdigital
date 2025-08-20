@@ -18,7 +18,7 @@ const Footer = () => {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/services">Services</Link></li>
-                            <li><Link to="/">Portfolio</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
@@ -37,8 +37,8 @@ const Footer = () => {
                         <ul className='social-links-list'>
                             <li className='social-link'><Link to="https://www.linkedin.com/company/ashtech-digital-solutions/" > <img src="./Footer/linkedin.svg" alt="" /></Link></li>
                             <li className='social-link'><Link to="https://github.com/ashtechdigitalsolutions" > <img src="./Footer/git.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="https://web.facebook.com/ashtechdigitalsolutions/" > <img src="./Footer/fb.svg" alt="" /></Link></li>
-                            <li className='social-link'><Link to="/" > <img src="./Footer/x.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://www.facebook.com/share/1BK9XTFTp3/?mibextid=wwXIfr" > <img src="./Footer/fb.svg" alt="" /></Link></li>
+                            <li className='social-link'><Link to="https://www.instagram.com/ashtechdigitalsolutions?igsh=MXdzeDdkM3YxYWNndQ%3D%3D&utm_source=qr" > <img src="./Footer/ig.svg" alt="" /></Link></li>
                         </ul>
                     </div>
                  </div>

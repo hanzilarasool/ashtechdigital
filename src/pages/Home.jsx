@@ -22,7 +22,7 @@ function Home() {
 </div>
 <div className="homepage-banner-button-wrap">
   <Link to="/contact" className="button-primary">Get Started</Link>
-<Link to="https://github.com/hanzilarasool/" target="_blank" className="button-secondary">See our Work</Link>
+  <Link to="/projects" className="button-secondary">See our Work</Link>
 </div>
 </div>
     </section>
