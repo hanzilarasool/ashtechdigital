@@ -112,7 +112,7 @@
   }
   
   .link:hover {
-    color: #4ecdc4;
+    color: var(--primary)
   }
   
   .icon {

@@ -1,5 +1,6 @@
 // AboutUs.js
 import teamMembers from '../teammember';
+import testimonials from '../testimonials';
 import '../styles/AboutUs.css';
 // import visionimg from  "../assets/about/vision.png"
 import { Link } from 'react-router-dom';
@@ -43,7 +44,46 @@ const AboutUs = () => {
           </li>
         ))}
       </ul>
-     
+ {/* Testimonials Section */}
+      <div className='testimonials-section'>
+        <div className='testimonials-header'>
+          <h2 className='our-vision-head'>What Our Clients Say</h2>
+          <p className='vision-para'>Hear from our satisfied clients who have experienced the ASH Tech difference.</p>
+        </div>
+        
+        <div className='testimonials-container'>
+          {testimonials.map((testimonial) => {
+              const fullStars = Math.floor(testimonial.rating); // whole stars
+              const hasHalfStar = testimonial.rating % 1 >= 0.5; // check if 0.5+
+              const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+              return (
+                <div key={testimonial.id} className='testimonial-card'>
+                  <div className='testimonial-rating'>
+                    {/* Full Stars */}
+                    {[...Array(fullStars)].map((_, i) => (
+                      <span key={`full-${i}`} className='star'>★</span>
+                    ))}
+
+                    {/* Half Star */}
+                    {hasHalfStar && <span className='star half'>★</span>}
+
+                    {/* Empty Stars */}
+                    {[...Array(emptyStars)].map((_, i) => (
+                      <span key={`empty-${i}`} className='star empty'>☆</span>
+                    ))}
+                  </div>
+
+                  <p className='testimonial-text'>"{testimonial.text}"</p>
+                  <div className='testimonial-author'>
+                    <h4 className='author-name'>{testimonial.name}</h4>
+                    <p className='author-projecttype'>{testimonial.projectType}</p>
+                  </div>
+                </div>
+              );
+          })}
+        </div>
+      </div>
     </section>
   );
 };
