@@ -1,0 +1,186 @@
+/* 
+  ==============================================
+  ASHTech Digital Solutions - Product Details Page (Light Theme)
+  ==============================================
+*/
+
+.page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: var(--white);
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+/* "Back to Products" link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.back-link:hover {
+  opacity: 0.8;
+}
+
+/* Error message styling */
+.error {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.error h2 {
+  color: #e74c3c; /* Red is standard for errors and fine to keep */
+  margin-bottom: 1rem;
+}
+
+/* Main product details layout */
+.product-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Right-side information section */
+.product-info-section {
+  padding: 1rem 0;
+}
+
+.product-title {
+  font-size: 2.5rem;
+  color: #212121;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.price {
+  font-size: 2rem;
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Description and Features sections */
+.description-section,
+.features-section {
+  margin-bottom: 2.5rem;
+}
+
+.description-section h3,
+.features-section h3 {
+  color: #212121;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  border-bottom: 2px solid var(--card-border);
+  padding-bottom: 0.5rem;
+}
+
+.description {
+  color: #555555;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.feature {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Call-to-action buttons */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-btn,
+.demo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  border: 2px solid var(--primary);
+  flex: 1; /* Makes buttons equal width */
+}
+
+/* Main button: Solid Orange */
+.contact-btn {
+  background-color: var(--primary);
+  color: white;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(243, 156, 18, 0.3); /* Orange shadow */
+  opacity: 0.9;
+}
+
+/* Secondary button: "Ghost" style */
+.demo-btn {
+  background: transparent;
+  color: var(--primary);
+}
+
+.demo-btn:hover {
+  background: var(--primary);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .product-details {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .product-title, .price {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+    margin-top: 80px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .feature {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

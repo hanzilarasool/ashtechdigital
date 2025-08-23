@@ -13,6 +13,8 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ServicesSinglePage from "./pages/ServicesSinglePage"
 import Projects from './components/Projects/Projects';
+import Products from './pages/Products';
+import ProductDetails from './pages/ProductDetails';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
             <Route path="/about" element={<AboutUs/>} />
             <Route path="/services" element={<Services />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/products/:id" element={<ProductDetails />} />
             <Route path="/services/:id" element={<ServicesSinglePage />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

@@ -1,5 +1,5 @@
 .services-page-wrapper{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -26,7 +26,7 @@
     line-height: 1.1em;
 
 }
-.servies-sections-grid{
+.services-sections-grid{
     width: 75%;
     display: grid;
     grid-column-gap: 30px;
@@ -40,7 +40,7 @@
 
 
 
-.servies-sections-grid a{
+.services-sections-grid a{
     text-decoration: none;
     color: var(--secondary-dark);
 }
@@ -72,9 +72,8 @@
     flex-direction: column;
     justify-content: space-between; /* Distribute space between the title and description */
     align-items: flex-start;
-    height: 100%; /* Ensure the text section takes full height */
 }
-.service-card-text h1{
+.service-card-text h2{
     color: var(--secondary-dark);
     text-align: left;
     letter-spacing: -.05em;
@@ -111,7 +110,7 @@
 }
 .service-card:hover .line-full{
     width: 100%;
-    background-color: var(--secondary-dark);
+    background-color: var(--primary);
 }
 .line-full-1{
     position: absolute;
@@ -119,18 +118,18 @@
     width: 0;
     left: 0;
     height: 2px;
-    background-color: var(--secondary-dark);
+    background-color: var(--primary);
     transition: all .5s ease-in;
 }
 .service-card:hover .line-full-1{
     width: 100%;
 }
 .service-card:hover{
-transform: scale(1.06);
+  transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
-    .servies-sections-grid {
+    .services-sections-grid {
       grid-template-columns: 1fr; /* Change to a single column layout for smaller screens */
       width: 90%; /* Adjust width for smaller screens */
       margin-top: 2rem; 

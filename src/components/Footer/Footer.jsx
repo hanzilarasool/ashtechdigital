@@ -19,17 +19,17 @@ const Footer = () => {
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/services">Services</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/products">Products</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     {/* services urls */}
                     <div className="footer-links">
                         <ul className='footer-links-list'>
-                            <li><Link to="/services/1">Web Development</Link></li>
-                            <li><Link to="/services/2">Web Designing</Link></li>
-                            <li><Link to="/services/3">Graphic Designing</Link></li>
-                            <li><Link to="/services/4">Student Assistence</Link></li>
-                            <li><Link to="/services/5">Marketing</Link></li>
+                            <li><Link to="/services/1">AI/ML Solutions</Link></li>
+                            <li><Link to="/services/2">Web & App Development</Link></li>
+                            <li><Link to="/services/3">UI/UX Design</Link></li>
+                            <li><Link to="/services/4">Career Counseling & Training</Link></li>
                         </ul>
                     </div>
 {/* end .here */}
@@ -45,8 +45,10 @@ const Footer = () => {
                 </div>
                
             </div>
-            <div className="footer-bottom">
-                    <p>&copy; 2024 ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/company/ashtech-digital-solutions/" className='developer-link' style={{textDecoration:"underline"}}> ASH Tech </Link> </p>
+
+                 {/* Sub-footer for copyright */}
+                <div className="footer-bottom">
+                    <p>&copy; {new Date().getFullYear()} ASH Tech Digital Solutions. All rights reserved. Developed by <Link to="https://www.linkedin.com/company/ashtech-digital-solutions/" className='developer-link' style={{textDecoration:"underline"}}> ASH Tech </Link> </p>
                 </div>
         </footer>
     );
