@@ -1,5 +1,6 @@
 import smarthome from "../../assets/images/prod2.jpeg";
 import smartmed from "../../assets/images/prod1.png";
+import aicalls from "../../assets/images/prod3.png";
 
 const products = [
     {
@@ -23,7 +24,24 @@ const products = [
       price: "Request a Quote",
       features: ['Centralized Control Hub', 'Lighting & Climate Automation', 'Voice Assistant Integration (Alexa/Google)', 'Real-time Energy Monitoring'],
       fullDescription: 'Experience the future of living with our AI Based Smart Home prototype. This system serves as the central brain for your home, allowing you to seamlessly control lighting, temperature, and other connected devices from a single app or voice command. Our prototype focuses on energy efficiency, convenience, and creating a truly intelligent living environment tailored to your lifestyle.',
-    }
+    },
+    {
+  id: 3,
+  title: 'AI Voice Agent for Any Industry',
+  image:aicalls, // replace with your actual image import/asset
+  purchaseLink: 'https://ashtechdigitalsolutions.com/contact',
+  demoLink: null, 
+  description: 'An AI-powered voice automation system that handles customer conversations across industries with real-time, multilingual, and privacy-first responses.',
+  price: "Request a Quote",
+  features: [
+    'Automates FAQs, bookings, scheduling, and issue resolution',
+    '24/7 multilingual support with real-time responses (<700ms)',
+    'Secure with privacy guardrails and human failover',
+    'Seamless integration with ERP, CRM, and booking systems'
+  ],
+  fullDescription: 'Our AI Voice Agent revolutionizes customer support by automating conversations across industries including banking, healthcare, travel, retail, and logistics. Customers speak naturally, the AI listens, processes queries, retrieves knowledge, and responds instantly with voice. With robust API integrations, businesses can reduce support costs by 50–70% while delivering round-the-clock service. Designed to be multilingual, privacy-first, and scalable, this AI Voice Agent represents the future of customer engagement and operational efficiency.',
+}, 
+
 ];
 
 export default products;

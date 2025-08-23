@@ -43,51 +43,78 @@
     font-family: Inter, sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: 1.5em;
-}
-.homepage-banner-button-wrap{
-    display: flex;
-    gap: 1.5rem;
-}
-.homepage-banner-button-wrap .button-primary{
-    text-decoration: none;
-    /* grid-column-gap: 50px; */
-    border: 2px solid var(--white);
-    background-color: var(--primary);
-    color: var(--white);
-    border-radius: 30px;
-    justify-content: center;
-    padding: 16px 24px;
-    transition-property: none;
-    display: flex;
-}
-.homepage-banner-button-wrap .button-secondary{
-    border: 2px solid var(--white);
-    color: var(--secondary-dark);
-    background-color: transparent;
-    border-radius: 30px;
-    padding: 16px 24px;
-    transition: all .3s;
-    display: flex;
-    text-decoration: none;
+    line-height: 1.5em;}
+    .homepage-banner-button-wrap {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.homepage-banner-button-wrap a{
-    color: var(--primary);
-    letter-spacing: -.05em;
-    align-items: center;
-    width: auto;
-    font-family: Inter, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.5em;
-    text-decoration: none;
-    transition: all .3s;
+.homepage-banner-button-wrap .button-primary,
+.homepage-banner-button-wrap .button-secondary {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 44px; */
+  padding: 0.625rem 2.75rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: -.05em;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  z-index: 1;
 }
-.homepage-banner-button-wrap a:hover{
-    background-color: var(--secondary-dark);
-    color: white;
+
+/* Default styles */
+.homepage-banner-button-wrap .button-primary {
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+  color:white;
 }
+
+.homepage-banner-button-wrap .button-secondary {
+  border: 2px solid var(--secondary-dark);
+  background-color: transparent;
+  color: var(--secondary-dark);
+}
+
+/* Sliding background effect */
+.homepage-banner-button-wrap .button-primary::before,
+.homepage-banner-button-wrap .button-secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+/* Colors for background animation */
+.homepage-banner-button-wrap .button-primary::before {
+  background-color: #f39c12;
+}
+
+.homepage-banner-button-wrap .button-secondary::before {
+  background-color: var(--secondary-dark);
+}
+
+/* Hover styles */
+.homepage-banner-button-wrap .button-primary:hover,
+.homepage-banner-button-wrap .button-secondary:hover {
+  color: #fff;
+}
+
+.homepage-banner-button-wrap .button-primary:hover::before,
+.homepage-banner-button-wrap .button-secondary:hover::before {
+  left: 0;
+}
+
 
 /* scroll container , animation styles */
 .scroll-wrapper{
@@ -152,9 +179,8 @@
         width: 90%;
       }
       .homepage-banner-button-wrap .button-primary ,.homepage-banner-button-wrap .button-secondary {
-          
-        padding: 10px 18px;
-       
+        padding: 0.625rem;
+
     }
     .scroll-list {
      
